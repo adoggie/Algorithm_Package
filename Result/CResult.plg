@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CResult - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CRESULT_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/CResult.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\net2\C\public\System.cpp"
+"Z:\net2\C\Result\TChart1.cpp"
+"Z:\net2\C\Result\TChartArea.cpp"
+"Z:\net2\C\Result\TChartAutocorrelations.cpp"
+"Z:\net2\C\Result\TChartBar.cpp"
+"Z:\net2\C\Result\TChartBlurry.cpp"
+"Z:\net2\C\Result\TChartBoxplot.cpp"
+"Z:\net2\C\Result\TChartClustering.cpp"
+"Z:\net2\C\Result\TChartControl.cpp"
+"Z:\net2\C\Result\TChartCrossCorrelations.cpp"
+"Z:\net2\C\Result\TChartCurve.cpp"
+"Z:\net2\C\Result\TChartDecTree.cpp"
+"Z:\net2\C\Result\TChartErrBar.cpp"
+"Z:\net2\C\Result\TChartHighLow.cpp"
+"Z:\net2\C\Result\TChartHistogram.cpp"
+"Z:\net2\C\Result\TChartLine.cpp"
+"Z:\net2\C\Result\TChartPareto.cpp"
+"Z:\net2\C\Result\TChartPedigree.cpp"
+"Z:\net2\C\Result\TChartPie.cpp"
+"Z:\net2\C\Result\TChartPP.cpp"
+"Z:\net2\C\Result\TChartROC.cpp"
+"Z:\net2\C\Result\TChartScatterPlot.cpp"
+"Z:\net2\C\Result\TChartSequence.cpp"
+"Z:\net2\C\public\TCLFile.cpp"
+"Z:\net2\C\Result\TGraphData.cpp"
+"Z:\net2\C\public\TString.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AA.tmp" with contents
+[
+..\cpknl\debug\cpknl.lib /nologo /dll /incremental:yes /pdb:"Debug/CResult.pdb" /debug /machine:I386 /out:"E:\NetTest\Debug\CResult.dll" /implib:"Debug/CResult.lib" /pdbtype:sept 
+.\Debug\CResult.obj
+.\Debug\DecTreeWnd.obj
+.\Debug\Result.obj
+.\Debug\System.obj
+.\Debug\TChart1.obj
+.\Debug\TChartArea.obj
+.\Debug\TChartAutocorrelations.obj
+.\Debug\TChartBar.obj
+.\Debug\TChartBlurry.obj
+.\Debug\TChartBoxplot.obj
+.\Debug\TChartClustering.obj
+.\Debug\TChartControl.obj
+.\Debug\TChartCrossCorrelations.obj
+.\Debug\TChartCurve.obj
+.\Debug\TChartDecTree.obj
+.\Debug\TChartErrBar.obj
+.\Debug\TChartHighLow.obj
+.\Debug\TChartHistogram.obj
+.\Debug\TChartLine.obj
+.\Debug\TChartPareto.obj
+.\Debug\TChartPedigree.obj
+.\Debug\TChartPie.obj
+.\Debug\TChartPP.obj
+.\Debug\TChartROC.obj
+.\Debug\TChartScatterPlot.obj
+.\Debug\TChartSequence.obj
+.\Debug\TCLFile.obj
+.\Debug\TGraphData.obj
+.\Debug\TString.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AA.tmp"
+<h3>Output Window</h3>
+Compiling...
+System.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\public\system.cpp(195) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+z:\net2\c\public\system.cpp(225) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+TChart1.cpp
+z:\net2\c\result\tchart1.h(144) : warning C4251: 'm_arChartInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTChart'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\tchart1.h(145) : warning C4251: 'm_arData' : class 'CTArray<struct tagTGraph *,struct tagTGraph *>' needs to have dll-interface to be used by clients of class 'CTChart'
+z:\net2\c\result\result.h(130) : warning C4251: 'm_tpVariable' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CRsltVariable'
+z:\net2\c\result\result.h(183) : warning C4251: 'm_tpResult' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CResult'
+z:\net2\c\result\result.h(224) : warning C4251: 'm_tpResultS' : class 'std::vector<class CResult *,class std::allocator<class CResult *> >' needs to have dll-interface to be used by clients of class 'CResultS'
+z:\net2\c\result\result.h(257) : warning C4251: 'm_strTextArray' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRsltElementText'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\dectreewnd.h(26) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\dectreewnd.h(27) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\result.h(389) : warning C4251: 'm_arColumnInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTLTable'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

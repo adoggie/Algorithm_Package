@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TLDBDLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TLDBDLL_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\net2\C\TLDBDll\Database\cbooleanfield.cpp"
+"Z:\net2\C\TLDBDll\Database\ccurrencyfield.cpp"
+"Z:\net2\C\TLDBDll\Database\cdataset.cpp"
+"Z:\net2\C\TLDBDll\Database\cdatefield.cpp"
+"Z:\net2\C\TLDBDll\Database\cdoublefield.cpp"
+"Z:\net2\C\TLDBDll\Database\cfakerecno.cpp"
+"Z:\net2\C\TLDBDll\Database\cfakerecnos.cpp"
+"Z:\net2\C\TLDBDll\Database\cfield.cpp"
+"Z:\net2\C\TLDBDll\Database\cfields.cpp"
+"Z:\net2\C\TLDBDll\Database\cfileoperation.cpp"
+"Z:\net2\C\TLDBDll\Database\cheader.cpp"
+"Z:\net2\C\TLDBDll\Database\cintfield.cpp"
+"Z:\net2\C\TLDBDll\Database\COriginRecPos.cpp"
+"Z:\net2\C\TLDBDll\Database\cpage.cpp"
+"Z:\net2\C\TLDBDll\Database\cpages.cpp"
+"Z:\net2\C\TLDBDll\Database\cqueueitem.cpp"
+"Z:\net2\C\TLDBDll\Database\cstringfield.cpp"
+"Z:\net2\C\TLDBDll\Database\cvaluelabel.cpp"
+"Z:\net2\C\TLDBDll\Database\DataAccess.cpp"
+"Z:\net2\C\TLDBDll\Database\DriverBase.cpp"
+"Z:\net2\C\TLDBDll\Database\DriverManager.cpp"
+"Z:\net2\C\TLDBDll\Database\fieldlist.cpp"
+"Z:\net2\C\TLDBDll\Database\fieldsversion.cpp"
+"Z:\net2\C\TLDBDll\Database\Missing.cpp"
+"Z:\net2\C\TLDBDll\Database\PageArraySort.cpp"
+"Z:\net2\C\TLDBDll\Database\showcharacteristic.cpp"
+"Z:\net2\C\Public\System.cpp"
+"Z:\net2\C\Public\TCLFile.cpp"
+"Z:\net2\C\TLDBDll\Database\tempfile.cpp"
+"Z:\net2\C\TLDBDll\TLDBDLL.cpp"
+"Z:\net2\C\Public\TString.cpp"
+"Z:\net2\C\TLDBDll\Database\versionlist.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C0.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"Debug/TLDBDll.pdb" /debug /machine:I386 /out:"E:\NetTest\Debug\TLDBDll.dll" /implib:"Debug/TLDBDll.lib" /pdbtype:sept 
+.\Debug\cbooleanfield.obj
+.\Debug\ccurrencyfield.obj
+.\Debug\cdataset.obj
+.\Debug\cdatefield.obj
+.\Debug\cdoublefield.obj
+.\Debug\cfakerecno.obj
+.\Debug\cfakerecnos.obj
+.\Debug\cfield.obj
+.\Debug\cfields.obj
+.\Debug\cfileoperation.obj
+.\Debug\cheader.obj
+.\Debug\cintfield.obj
+.\Debug\COriginRecPos.obj
+.\Debug\cpage.obj
+.\Debug\cpages.obj
+.\Debug\cqueueitem.obj
+.\Debug\cstringfield.obj
+.\Debug\cvaluelabel.obj
+.\Debug\DataAccess.obj
+.\Debug\DriverBase.obj
+.\Debug\DriverManager.obj
+.\Debug\fieldlist.obj
+.\Debug\fieldsversion.obj
+.\Debug\Missing.obj
+.\Debug\PageArraySort.obj
+.\Debug\showcharacteristic.obj
+.\Debug\System.obj
+.\Debug\TCLFile.obj
+.\Debug\tempfile.obj
+.\Debug\TLDBDLL.obj
+.\Debug\TString.obj
+.\Debug\versionlist.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C0.tmp"
+<h3>Output Window</h3>
+Compiling...
+cbooleanfield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+ccurrencyfield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\tldbdll\database\ccurrencyfield.cpp(95) : warning C4101: 'st' : unreferenced local variable
+cdataset.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cdatefield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cdoublefield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\tldbdll\database\cdoublefield.cpp(58) : warning C4101: 'st' : unreferenced local variable
+cfakerecno.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cfakerecnos.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cfield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cfields.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cfileoperation.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cheader.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cintfield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\tldbdll\database\cintfield.cpp(52) : warning C4101: 'st' : unreferenced local variable
+COriginRecPos.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cpage.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cpages.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cqueueitem.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cstringfield.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+cvaluelabel.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\tldbdll\database\cvaluelabel.cpp(728) : warning C4101: 'tValue' : unreferenced local variable
+z:\net2\c\tldbdll\database\cvaluelabel.cpp(728) : warning C4101: 'tTemp' : unreferenced local variable
+DataAccess.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+DriverBase.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+Generating Code...
+z:\net2\c\tldbdll\database\cstringfield.cpp(68) : warning C4700: local variable 'ft' used without having been initialized
+z:\net2\c\tldbdll\database\cintfield.cpp(65) : warning C4700: local variable 'FT' used without having been initialized
+z:\net2\c\tldbdll\database\cfield.cpp(430) : warning C4700: local variable 'ft' used without having been initialized
+z:\net2\c\tldbdll\database\cfield.cpp(497) : warning C4700: local variable 'b' used without having been initialized
+z:\net2\c\tldbdll\database\cdoublefield.cpp(71) : warning C4700: local variable 'FT' used without having been initialized
+z:\net2\c\tldbdll\database\ccurrencyfield.cpp(108) : warning C4700: local variable 'FT' used without having been initialized
+Compiling...
+DriverManager.cpp
+z:\net2\c\tldbdll\database\cbooleanfield.cpp(91) : warning C4700: local variable 'FT' used without having been initialized
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+fieldlist.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+fieldsversion.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+Missing.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+PageArraySort.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+showcharacteristic.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+System.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\public\system.cpp(195) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+z:\net2\c\public\system.cpp(225) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+TCLFile.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+tempfile.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+TLDBDLL.cpp
+TString.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+versionlist.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+Generating Code...
+Linking...
+   Creating library Debug/TLDBDll.lib and object Debug/TLDBDll.exp
+
+
+
+<h3>Results</h3>
+TLDBDll.dll - 0 error(s), 45 warning(s)
+</pre>
+</body>
+</html>

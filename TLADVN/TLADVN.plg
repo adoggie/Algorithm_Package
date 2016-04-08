@@ -1,0 +1,238 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TLADVN - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TLADVN_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\net2\C\Public\AnaWord.cpp"
+"Z:\net2\C\arithInterface\EnvParam.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TLADVN_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/TLADVN.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\net2\C\TLADVN\RegressionLinear.cpp"
+"Z:\net2\C\TLADVN\RegressionLogistic.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D5.tmp" with contents
+[
+..\Cpknl\Debug\Cpknl.lib ..\DataInterface\Debug\DataInterface.lib ..\TLDBDLL\Debug\TLDBDll.lib ..\Result\Debug\CResult.lib /nologo /dll /incremental:yes /pdb:"Debug/TLADVN.pdb" /debug /machine:I386 /out:"E:\NetTest\Debug\TLADVN.dll" /implib:"Debug/TLADVN.lib" /pdbtype:sept 
+.\Debug\AlgorithmBase.obj
+.\Debug\AnaSyntax.obj
+.\Debug\AnaWord.obj
+.\Debug\ARIMA.OBJ
+.\Debug\Classify.obj
+.\Debug\CointegrationTest.obj
+.\Debug\Covariance.obj
+.\Debug\CurveReg.obj
+.\Debug\Discriminant.obj
+.\Debug\EnvParam.obj
+.\Debug\ExponSmoothing.obj
+.\Debug\Factor.obj
+.\Debug\FileReadWrite.obj
+.\Debug\MarkovChain.obj
+.\Debug\MultiAnova.obj
+.\Debug\PCR.obj
+.\Debug\QuickCluster.obj
+.\Debug\RegressionLinear.obj
+.\Debug\RegressionLogistic.obj
+.\Debug\RegressionOrdinal.obj
+.\Debug\RegressionProbit.obj
+.\Debug\RidgeAnalysize.obj
+.\Debug\RootTest.obj
+.\Debug\Simuequation.obj
+.\Debug\StdAfx.obj
+.\Debug\Survival.obj
+.\Debug\SurvivalCox.obj
+.\Debug\SurvivalKM.obj
+.\Debug\SurvivalLT.obj
+.\Debug\System.obj
+.\Debug\TCLFile.obj
+.\Debug\TimeSeansonal.obj
+.\Debug\TimeSeries.obj
+.\Debug\TimeX11.obj
+.\Debug\TimeX12.obj
+.\Debug\TLADVN.obj
+.\Debug\TString.obj
+.\Debug\Var.obj
+.\Debug\VEC.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D5.tmp"
+<h3>Output Window</h3>
+Compiling...
+AnaWord.cpp
+EnvParam.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+z:\net2\c\cpknl\vector.h(1498) : warning C4275: non dll-interface class 'CVector<int>' used as base for dll-interface class 'CIntVector'
+        z:\net2\c\cpknl\vector.h(1497) : see declaration of 'CIntVector'
+z:\net2\c\cpknl\vector.h(1548) : warning C4275: non dll-interface class 'CVector<double>' used as base for dll-interface class 'CDoubleVector'
+        z:\net2\c\cpknl\vector.h(1547) : see declaration of 'CDoubleVector'
+z:\net2\c\cpknl\vector.h(1648) : warning C4275: non dll-interface class 'CVector<class CComplex>' used as base for dll-interface class 'CComplexVector'
+        z:\net2\c\cpknl\vector.h(1647) : see declaration of 'CComplexVector'
+z:\net2\c\cpknl\matrix.h(2397) : warning C4275: non dll-interface class 'CMatrix<int>' used as base for dll-interface class 'CIntMatrix'
+        z:\net2\c\cpknl\matrix.h(2396) : see declaration of 'CIntMatrix'
+z:\net2\c\cpknl\matrix.h(2441) : warning C4275: non dll-interface class 'CMatrix<double>' used as base for dll-interface class 'CDoubleMatrix'
+        z:\net2\c\cpknl\matrix.h(2440) : see declaration of 'CDoubleMatrix'
+z:\net2\c\cpknl\matrix.h(2611) : warning C4275: non dll-interface class 'CMatrix<class CComplex>' used as base for dll-interface class 'CComplexMatrix'
+        z:\net2\c\cpknl\matrix.h(2610) : see declaration of 'CComplexMatrix'
+z:\net2\c\cpknl\matrix.h(4258) : warning C4275: non dll-interface class 'CSparseMatrix<double>' used as base for dll-interface class 'CSparseDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4257) : see declaration of 'CSparseDbMatrix'
+z:\net2\c\cpknl\matrix.h(4317) : warning C4275: non dll-interface class 'CSparseMatrix<class CComplex>' used as base for dll-interface class 'CSparseCompMatrix'
+        z:\net2\c\cpknl\matrix.h(4316) : see declaration of 'CSparseCompMatrix'
+z:\net2\c\cpknl\matrix.h(4651) : warning C4275: non dll-interface class 'CTriangleMatrix<double>' used as base for dll-interface class 'CTriangleDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4650) : see declaration of 'CTriangleDbMatrix'
+z:\net2\c\cpknl\matrix.h(4970) : warning C4275: non dll-interface class 'CSymMatrix<double>' used as base for dll-interface class 'CSymDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4969) : see declaration of 'CSymDbMatrix'
+z:\net2\c\tldbdll\database\cvaluelabel.h(36) : warning C4251: 'm_strLabelList' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CValueLabel'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+Generating Code...
+Compiling...
+RegressionLinear.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+d:\program files\microsoft visual studio\vc98\include\vector(48) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(61) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(103) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(105) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(107) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(108) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+z:\net2\c\cpknl\vector.h(1498) : warning C4275: non dll-interface class 'CVector<int>' used as base for dll-interface class 'CIntVector'
+        z:\net2\c\cpknl\vector.h(1497) : see declaration of 'CIntVector'
+z:\net2\c\cpknl\vector.h(1548) : warning C4275: non dll-interface class 'CVector<double>' used as base for dll-interface class 'CDoubleVector'
+        z:\net2\c\cpknl\vector.h(1547) : see declaration of 'CDoubleVector'
+z:\net2\c\cpknl\vector.h(1648) : warning C4275: non dll-interface class 'CVector<class CComplex>' used as base for dll-interface class 'CComplexVector'
+        z:\net2\c\cpknl\vector.h(1647) : see declaration of 'CComplexVector'
+z:\net2\c\cpknl\matrix.h(2397) : warning C4275: non dll-interface class 'CMatrix<int>' used as base for dll-interface class 'CIntMatrix'
+        z:\net2\c\cpknl\matrix.h(2396) : see declaration of 'CIntMatrix'
+z:\net2\c\cpknl\matrix.h(2441) : warning C4275: non dll-interface class 'CMatrix<double>' used as base for dll-interface class 'CDoubleMatrix'
+        z:\net2\c\cpknl\matrix.h(2440) : see declaration of 'CDoubleMatrix'
+z:\net2\c\cpknl\matrix.h(2611) : warning C4275: non dll-interface class 'CMatrix<class CComplex>' used as base for dll-interface class 'CComplexMatrix'
+        z:\net2\c\cpknl\matrix.h(2610) : see declaration of 'CComplexMatrix'
+z:\net2\c\cpknl\matrix.h(4258) : warning C4275: non dll-interface class 'CSparseMatrix<double>' used as base for dll-interface class 'CSparseDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4257) : see declaration of 'CSparseDbMatrix'
+z:\net2\c\cpknl\matrix.h(4317) : warning C4275: non dll-interface class 'CSparseMatrix<class CComplex>' used as base for dll-interface class 'CSparseCompMatrix'
+        z:\net2\c\cpknl\matrix.h(4316) : see declaration of 'CSparseCompMatrix'
+z:\net2\c\cpknl\matrix.h(4651) : warning C4275: non dll-interface class 'CTriangleMatrix<double>' used as base for dll-interface class 'CTriangleDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4650) : see declaration of 'CTriangleDbMatrix'
+z:\net2\c\cpknl\matrix.h(4970) : warning C4275: non dll-interface class 'CSymMatrix<double>' used as base for dll-interface class 'CSymDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4969) : see declaration of 'CSymDbMatrix'
+z:\net2\c\tldbdll\database\cvaluelabel.h(36) : warning C4251: 'm_strLabelList' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CValueLabel'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\datainterface\datainterface.h(47) : warning C4251: 'm_strFieldNameAry' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CMapManager'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\tchart1.h(144) : warning C4251: 'm_arChartInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTChart'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\tchart1.h(145) : warning C4251: 'm_arData' : class 'CTArray<struct tagTGraph *,struct tagTGraph *>' needs to have dll-interface to be used by clients of class 'CTChart'
+z:\net2\c\result\result.h(130) : warning C4251: 'm_tpVariable' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CRsltVariable'
+z:\net2\c\result\result.h(183) : warning C4251: 'm_tpResult' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CResult'
+z:\net2\c\result\result.h(224) : warning C4251: 'm_tpResultS' : class 'std::vector<class CResult *,class std::allocator<class CResult *> >' needs to have dll-interface to be used by clients of class 'CResultS'
+z:\net2\c\result\result.h(257) : warning C4251: 'm_strTextArray' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRsltElementText'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\dectreewnd.h(26) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\dectreewnd.h(27) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\result.h(389) : warning C4251: 'm_arColumnInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTLTable'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\factor.h(197) : warning C4251: 'm_arrRecNo' : class 'CTArray<int,int>' needs to have dll-interface to be used by clients of class 'CFactor'
+z:\net2\c\tladvn\factor.h(280) : warning C4251: 'm_strResultExplain' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CFactor'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\regressionlogistic.h(30) : warning C4251: 'm_strInteractiveArray' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRegressionLogistic'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\regressionlogistic.h(73) : warning C4251: 'm_strArrayFieldName' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRegressionLogistic'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\regressionordinal.h(56) : warning C4251: 'm_strArrayFieldName' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRegressionOrdinal'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\curvereg.h(57) : warning C4251: 'm_Legend' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CCurveReg'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\multianova.h(43) : warning C4251: 'm_strNameArrayComb' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CMultiAnova'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\quickcluster.h(64) : warning C4251: 'm_DataMatrix' : class 'std::vector<class TCDataArray<struct TDataCol> *,class std::allocator<class TCDataArray<struct TDataCol> *> >' needs to have dll-interface to be used by clients of class 'CQuickCluster'
+z:\net2\c\tladvn\quickcluster.h(66) : warning C4251: 'm_IntCluster' : class 'TCDataArray<int>' needs to have dll-interface to be used by clients of class 'CQuickCluster'
+z:\net2\c\tladvn\quickcluster.h(68) : warning C4251: 'm_IntTempCluster' : class 'TCDataArray<int>' needs to have dll-interface to be used by clients of class 'CQuickCluster'
+z:\net2\c\tladvn\survivalkm.h(73) : warning C4251: 'm_aKMTable' : class 'CTArray<struct TKMTable *,struct TKMTable *>' needs to have dll-interface to be used by clients of class 'CSurvivalKM'
+z:\net2\c\tladvn\survival.h(38) : warning C4251: 'm_aFieldInfo' : class 'CTArray<struct tagFieldInfo,struct tagFieldInfo>' needs to have dll-interface to be used by clients of class 'CSurvivalVO'
+z:\net2\c\tladvn\exponsmoothing.h(49) : warning C4251: 'm_alphaconf' : class 'SmoothConf' needs to have dll-interface to be used by clients of class 'CExponSmoothing'
+        z:\net2\c\tladvn\conftypes.h(3) : see declaration of 'SmoothConf'
+z:\net2\c\tladvn\exponsmoothing.h(51) : warning C4251: 'm_deltaconf' : class 'SmoothConf' needs to have dll-interface to be used by clients of class 'CExponSmoothing'
+        z:\net2\c\tladvn\conftypes.h(3) : see declaration of 'SmoothConf'
+z:\net2\c\tladvn\exponsmoothing.h(53) : warning C4251: 'm_gammaconf' : class 'SmoothConf' needs to have dll-interface to be used by clients of class 'CExponSmoothing'
+        z:\net2\c\tladvn\conftypes.h(3) : see declaration of 'SmoothConf'
+z:\net2\c\tladvn\exponsmoothing.h(55) : warning C4251: 'm_phiconf' : class 'SmoothConf' needs to have dll-interface to be used by clients of class 'CExponSmoothing'
+        z:\net2\c\tladvn\conftypes.h(3) : see declaration of 'SmoothConf'
+z:\net2\c\tladvn\exponsmoothing.h(58) : warning C4251: 'm_FNames' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CExponSmoothing'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+RegressionLogistic.cpp
+z:\net2\c\public\tstring.h(612) : warning C4251: 'm_list' : class 'std::list<void *,class std::allocator<void *> >' needs to have dll-interface to be used by clients of class 'CPtrList'
+d:\program files\microsoft visual studio\vc98\include\vector(48) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(61) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(103) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(105) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(107) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+d:\program files\microsoft visual studio\vc98\include\vector(108) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        z:\net2\c\public\anaword.h(22) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+z:\net2\c\cpknl\vector.h(1498) : warning C4275: non dll-interface class 'CVector<int>' used as base for dll-interface class 'CIntVector'
+        z:\net2\c\cpknl\vector.h(1497) : see declaration of 'CIntVector'
+z:\net2\c\cpknl\vector.h(1548) : warning C4275: non dll-interface class 'CVector<double>' used as base for dll-interface class 'CDoubleVector'
+        z:\net2\c\cpknl\vector.h(1547) : see declaration of 'CDoubleVector'
+z:\net2\c\cpknl\vector.h(1648) : warning C4275: non dll-interface class 'CVector<class CComplex>' used as base for dll-interface class 'CComplexVector'
+        z:\net2\c\cpknl\vector.h(1647) : see declaration of 'CComplexVector'
+z:\net2\c\cpknl\matrix.h(2397) : warning C4275: non dll-interface class 'CMatrix<int>' used as base for dll-interface class 'CIntMatrix'
+        z:\net2\c\cpknl\matrix.h(2396) : see declaration of 'CIntMatrix'
+z:\net2\c\cpknl\matrix.h(2441) : warning C4275: non dll-interface class 'CMatrix<double>' used as base for dll-interface class 'CDoubleMatrix'
+        z:\net2\c\cpknl\matrix.h(2440) : see declaration of 'CDoubleMatrix'
+z:\net2\c\cpknl\matrix.h(2611) : warning C4275: non dll-interface class 'CMatrix<class CComplex>' used as base for dll-interface class 'CComplexMatrix'
+        z:\net2\c\cpknl\matrix.h(2610) : see declaration of 'CComplexMatrix'
+z:\net2\c\cpknl\matrix.h(4258) : warning C4275: non dll-interface class 'CSparseMatrix<double>' used as base for dll-interface class 'CSparseDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4257) : see declaration of 'CSparseDbMatrix'
+z:\net2\c\cpknl\matrix.h(4317) : warning C4275: non dll-interface class 'CSparseMatrix<class CComplex>' used as base for dll-interface class 'CSparseCompMatrix'
+        z:\net2\c\cpknl\matrix.h(4316) : see declaration of 'CSparseCompMatrix'
+z:\net2\c\cpknl\matrix.h(4651) : warning C4275: non dll-interface class 'CTriangleMatrix<double>' used as base for dll-interface class 'CTriangleDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4650) : see declaration of 'CTriangleDbMatrix'
+z:\net2\c\cpknl\matrix.h(4970) : warning C4275: non dll-interface class 'CSymMatrix<double>' used as base for dll-interface class 'CSymDbMatrix'
+        z:\net2\c\cpknl\matrix.h(4969) : see declaration of 'CSymDbMatrix'
+z:\net2\c\tldbdll\database\cvaluelabel.h(36) : warning C4251: 'm_strLabelList' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CValueLabel'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\datainterface\datainterface.h(47) : warning C4251: 'm_strFieldNameAry' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CMapManager'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\tchart1.h(144) : warning C4251: 'm_arChartInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTChart'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\tchart1.h(145) : warning C4251: 'm_arData' : class 'CTArray<struct tagTGraph *,struct tagTGraph *>' needs to have dll-interface to be used by clients of class 'CTChart'
+z:\net2\c\result\result.h(130) : warning C4251: 'm_tpVariable' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CRsltVariable'
+z:\net2\c\result\result.h(183) : warning C4251: 'm_tpResult' : class 'std::vector<class CRsltVariable *,class std::allocator<class CRsltVariable *> >' needs to have dll-interface to be used by clients of class 'CResult'
+z:\net2\c\result\result.h(224) : warning C4251: 'm_tpResultS' : class 'std::vector<class CResult *,class std::allocator<class CResult *> >' needs to have dll-interface to be used by clients of class 'CResultS'
+z:\net2\c\result\result.h(257) : warning C4251: 'm_strTextArray' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRsltElementText'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\result\dectreewnd.h(26) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\dectreewnd.h(27) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+z:\net2\c\result\result.h(389) : warning C4251: 'm_arColumnInfo' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CTLTable'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\regressionlogistic.h(30) : warning C4251: 'm_strInteractiveArray' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRegressionLogistic'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+z:\net2\c\tladvn\regressionlogistic.h(73) : warning C4251: 'm_strArrayFieldName' : class 'CTStringArray' needs to have dll-interface to be used by clients of class 'CRegressionLogistic'
+        z:\net2\c\public\tstring.h(351) : see declaration of 'CTStringArray'
+Linking...
+LINK : fatal error LNK1104: cannot open file "..\DataInterface\Debug\DataInterface.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+TLADVN.dll - 1 error(s), 87 warning(s)
+</pre>
+</body>
+</html>

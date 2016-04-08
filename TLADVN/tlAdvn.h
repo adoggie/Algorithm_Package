@@ -1,0 +1,35 @@
+#ifndef _TLADVN_H
+#define _TLADVN_H
+
+
+
+#include "Factor.h"
+#include "Arima.h"
+#include "Discriminant.h"
+#include "Classify.h"
+#include "RegressionLinear.h"
+#include "RegressionProbit.h"
+#include "RegressionLogistic.h"
+#include "RegressionOrdinal.h"
+#include "RidgeAnalysize.h"
+#include "PCR.h"
+#include "CurveReg.h"
+#include "MultiAnova.h"
+#include "RegLinearPredict.h"
+#include "TimeSeries.h"
+#include "QuickCluster.h"
+#include "SurvivalLT.h"
+#include "SurvivalKM.h"
+#include "Survival.h"
+#include "SurvivalCox.h"
+#include "Simuequation.h"
+#include "TimeSeansonal.h"
+#include "TimeX11.h"
+#include "ExponSmoothing.h"
+#include "Var.h"
+#include "VEC.h"
+#include "TimeX12.h"
+#include "RootTest.h"
+#include "CointegrationTest.h"
+#include "MarkovChain.h"
+#endif
